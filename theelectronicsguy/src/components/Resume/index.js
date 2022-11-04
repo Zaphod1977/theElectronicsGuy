@@ -5,7 +5,7 @@ function Resume(props) {
 
   return (
     <section id="work" className="work">
-      <h2 className="work-leftside">Resume</h2>
+      <h2 className="work-leftside">Services</h2>
       <div >
         <div className="">
           <Project className="resume"

@@ -14,7 +14,7 @@ function Nav(props) {
     <header className="flex-row px-1 space">
       <h2>
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"></span>Bobby Bridges
+          <span role="img" aria-label="camera"></span>The Electronics Guy
         </a>
       </h2>
       <nav>
@@ -29,14 +29,14 @@ function Nav(props) {
               Portfolio
             </a>
           </li>
+          <li className={currentPage === "Resume" ? "currentPage" : ""}>
+            <a data-testid="Resume" href="#Resume" onClick={() => setCurrentPage("Resume")}>
+              Services
+            </a>
+          </li>
           <li className={currentPage === "Contact" ? "currentPage" : ""}>
             <a data-testid="Contact" href="#Contact" onClick={() => setCurrentPage("Contact")}>
               Contact
-            </a>
-          </li>
-          <li className={currentPage === "Resume" ? "currentPage" : ""}>
-            <a data-testid="Resume" href="#Resume" onClick={() => setCurrentPage("Resume")}>
-              Resume
             </a>
           </li>
         </ul>
