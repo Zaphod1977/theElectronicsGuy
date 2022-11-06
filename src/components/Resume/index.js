@@ -7,7 +7,7 @@ function Resume(props) {
     <section id="work" className="work">
       <h2 className="work-leftside">Services</h2>
       <div >
-        <div className="">
+        <div className="serv">
         <br></br>
         <br></br>        <br></br>
         <br></br>        <br></br>

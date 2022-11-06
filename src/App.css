@@ -341,12 +341,20 @@ body {
 
 /* start media query here -  tablet devices */
 @media only screen and (max-width: 390px) {
+
+  body {
+    background-image: url(../src/assets/images/Lines.gif);
+  }
   
   .footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 16vh;
+  }
+
+  ul {
+    padding: 0;
   }
 
   header,
@@ -379,7 +387,7 @@ body {
   .aboutme {
     flex-direction: column;
     padding: 0;
-    margin: 0;
+    margin: 1em;
   }
 
   .aboutme-rightside{
@@ -389,7 +397,7 @@ body {
   .aboutme-leftside {
     display: block;
     text-align: center;
-    padding: .50em 0 0 0;
+    padding: .50em 1em 0 1em;
     border-right: none;
     font-size: 35px;
     height: 10vh;
@@ -406,6 +414,7 @@ body {
     margin: 0;
     border-right: none;
     font-size: 35px;
+    height: 15vh;
   }
 
   .contactForm {
@@ -461,6 +470,14 @@ body {
 
   #con a {
     margin: .4em;
+  }
+
+  .contactForm form {
+    margin: 1em;
+  }
+
+  .serv {
+    margin: 1em;
   }
 }
 
