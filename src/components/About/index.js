@@ -19,15 +19,7 @@ function About() {
         propensity.  Lets explore whats possible and make those tech dreams come true!
         <br></br>
         <br></br>
-        <ul>
-        <li>Home Cinema</li>
-        <li>Whole House Audio</li>
-        <li>Whole House HD Video</li>
-        <li>High Performance Home Network w/Seemless Wifi</li>
-        <li>Reference Video Calibration</li>
-        <li>Home Automation w/Bespoke GUI</li>
-        <li>CD Collection Ripping/Duplication</li>
-        </ul>
+
       </p>
     </section>
   );

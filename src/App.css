@@ -22,14 +22,12 @@
   font-family: rubic;
   src: url(../src/assets/fonts/RubikGlitch-Regular.ttf);
 }
-.space {
-  background-image: url(../src/assets/images/Lines.gif);
-}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 a {
@@ -44,10 +42,11 @@ h2{
 }
 
 body {
-  color: #39a6b2;
-  background-color: lightgray;
+  /* color: #39a6b2; */
+  image-resolution: 10%;
   font-family: cor;
   width: 100vw;
+  background-image: url(../src/assets/images/Lines.gif);
 }
 
 /* apply styles to <header> */
@@ -125,14 +124,14 @@ header nav ul li a {
   display: flex;
   align-items: stretch;
   vertical-align: top;
-  background-color: lightgray;
+  /* background-color: lightgray; */
 }
 
 .aboutme-rightside {
   font-weight: 700;
   font-size: 1.25em;
   padding: 0 0 0 40px;
-  color: rgb(65, 35, 240);
+  color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: justify;
   height: 50vh;
@@ -145,12 +144,12 @@ ul {
 .aboutme-leftside {
   text-align: right;
   padding: 0 40px 0 40px;
-  color: black;
+  color: white;
   font-size: 50px;
   line-height: 1.2;
   display: inline-block;
   border-right: 3px solid;
-  border-color: black;
+  border-color: white;
   height: 65vh;
   font-family: rubic;
 }
@@ -161,7 +160,7 @@ ul {
 /* work section begin */
 .work {
   text-align: center;
-  background: lightgray;
+  /* background: lightgray; */
   display: flex;
 }
 
@@ -172,11 +171,11 @@ ul {
 
 .work-leftside {
   font-size: 50px;
-  color: black;
+  color: white;
   margin: 35px;
   padding: 30px 40px 0 60px;
   border-right: 3.5px solid;
-  border-color: black;
+  border-color: white;
   height: 65vh;
   font-family: rubic;
 }
@@ -184,7 +183,7 @@ ul {
 .work-rightside {
   max-width: 17em;
   font-size: 55px;
-  color: #024e76;
+  color: white;
   margin: 35px 0 35px 2px;
   padding: 0;
   position: relative;
