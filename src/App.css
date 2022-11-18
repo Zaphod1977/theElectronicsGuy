@@ -27,12 +27,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
+  color: black;
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 h2{
@@ -46,7 +46,7 @@ body {
   image-resolution: 10%;
   font-family: cor;
   width: 100vw;
-  background-image: url(../src/assets/images/Lines.gif);
+  background-image: url(../src/assets/images/white_on_black.gif);
 }
 
 /* apply styles to <header> */
@@ -131,7 +131,7 @@ header nav ul li a {
   font-weight: 700;
   font-size: 1.25em;
   padding: 0 0 0 40px;
-  color: white;
+  color: black;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: justify;
   height: 50vh;
@@ -144,12 +144,12 @@ ul {
 .aboutme-leftside {
   text-align: right;
   padding: 0 40px 0 40px;
-  color: white;
+  color: black;
   font-size: 50px;
   line-height: 1.2;
   display: inline-block;
   border-right: 3px solid;
-  border-color: white;
+  border-color: black;
   height: 65vh;
   font-family: rubic;
 }
@@ -164,6 +164,11 @@ ul {
   display: flex;
 }
 
+.work li {
+  
+font-weight: 800;
+}
+
 .work img {
   margin: 1.5em;
   max-width: 50vw;
@@ -171,11 +176,11 @@ ul {
 
 .work-leftside {
   font-size: 50px;
-  color: white;
+  color: black;
   margin: 35px;
   padding: 30px 40px 0 60px;
   border-right: 3.5px solid;
-  border-color: white;
+  border-color: black;
   height: 65vh;
   font-family: rubic;
 }
@@ -183,7 +188,7 @@ ul {
 .work-rightside {
   max-width: 17em;
   font-size: 55px;
-  color: white;
+  color: black;
   margin: 35px 0 35px 2px;
   padding: 0;
   position: relative;
@@ -194,7 +199,7 @@ ul {
   position: relative;
   text-align: left;
   vertical-align: bottom;
-  color: white;
+  color: black;
 }
 
 .container img {
@@ -240,7 +245,7 @@ ul {
   font-size: .45em;
   text-align: left;
   padding: 0 0 0 5px;
-  color: white;
+  color: black;
   position: relative;
   width: 9em;
   bottom: 60px;
