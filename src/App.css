@@ -32,7 +32,7 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 h2{
@@ -47,6 +47,7 @@ body {
   font-family: cor;
   width: 100vw;
   background-image: url(../src/assets/images/white_on_black.gif);
+  background-size: 95vw;
 }
 
 /* apply styles to <header> */
