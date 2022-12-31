@@ -61,7 +61,13 @@ header {
   z-index: 50;
 }
 
+header a {
+  font-size: 190%;
+  font-weight: 400;
+}
+
 footer {
+  font-size: 1.5em;
   background-color: gray;
   flex-shrink: 0;
   position: sticky;
@@ -136,6 +142,14 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: justify;
   height: 50vh;
+}
+
+.aboutfloat {
+  padding: .3em .5em .3em .5em;
+  background-color: rgb(227, 227, 252);
+  border-radius: 5px;
+  border-color: black;
+  border: 1px solid black
 }
 
 ul {
@@ -349,8 +363,8 @@ body {
 @media only screen and (max-width: 390px) {
 
   header a {
-    font-size: 1.3em;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 400;
   }
   
   .footer {
